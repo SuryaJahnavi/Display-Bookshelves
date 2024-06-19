@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-14T12:07:50 IST" name="Suite" finished-at="2024-06-14T12:17:00 IST" duration-ms="549780">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.urbanladder.runner.UrbanTestRunner@6ab778a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-06-14T12:07:50 IST" name="ExtentReport5 for Cucumber7" finished-at="2024-06-14T12:17:00 IST" duration-ms="549780">
+      <class name="com.urbanladder.runner.UrbanTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.urbanladder.runner.UrbanTestRunner@6ab778a]" started-at="2024-06-14T12:07:50 IST" name="setUpClass" finished-at="2024-06-14T12:07:56 IST" duration-ms="5876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@56820446]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.urbanladder.runner.UrbanTestRunner@6ab778a]" started-at="2024-06-14T12:07:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-14T12:08:25 IST" duration-ms="28600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for bookshelve"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home page scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.urbanladder.runner.UrbanTestRunner@6ab778a]" started-at="2024-06-14T12:08:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-14T12:08:49 IST" duration-ms="23864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search BookShelves and Display the Results"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["BookShelf Page Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.urbanladder.runner.UrbanTestRunner@6ab778a]" started-at="2024-06-14T12:08:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-14T12:09:26 IST" duration-ms="37360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter Gift Card Details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Gift-Card Page Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.urbanladder.runner.UrbanTestRunner@6ab778a]" started-at="2024-06-14T12:09:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-14T12:09:49 IST" duration-ms="22702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter Gift Card Details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Gift-Card Page Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.urbanladder.runner.UrbanTestRunner@6ab778a]" started-at="2024-06-14T12:09:49 IST" name="tearDownClass" finished-at="2024-06-14T12:17:00 IST" duration-ms="431281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.urbanladder.runner.UrbanTestRunner -->
+    </test> <!-- ExtentReport5 for Cucumber7 -->
+  </suite> <!-- Suite -->
+</testng-results>
